@@ -1,7 +1,7 @@
 # Karubi
 
 ## Member
-- さわさわ
+- zawazawa
 - Doppon
 - タクト
 - てらけん
