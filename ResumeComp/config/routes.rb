@@ -4,10 +4,11 @@ Rails.application.routes.draw do
   resources :users do
     collection do
       get :resume_create
+      get :preview
     end
   end
 
-  get "resume_preview" => "user#preview"
+
 
   # resumeのtemplateを表示
   get "resume_template" => "resume_template#index"
