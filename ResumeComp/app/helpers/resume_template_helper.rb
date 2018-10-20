@@ -1,0 +1,2 @@
+module ResumeTemplateHelper
+end
