@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     end
   end
 
+  get "resume_preview" => "user#preview"
+
   # resumeのtemplateを表示
   get "resume_template" => "resume_template#index"
 

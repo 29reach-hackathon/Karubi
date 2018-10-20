@@ -64,6 +64,14 @@ class UsersController < ApplicationController
     end
   end
 
+
+  def preview
+    #@user = User.find(user_params)
+    @user = User.new
+    @user.full_name = "ざわざわ"
+    @user.full_name = "ザワザワ"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
