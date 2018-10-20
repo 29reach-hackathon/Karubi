@@ -59,6 +59,17 @@
       .center {
         text-align: center;
       }
+      .btn-dl{
+        color: #ffffff;
+        font-size: 20px;
+        margin: 40px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+      }
+      .btn-dl a{
+        color: white;
+      }
     </style>
   </head>
   <body>
@@ -271,4 +282,8 @@
       </table>
     </page>
   </body>
+
+  <button type="button" class="btn btn-primary btn-dl" href="download">
+    <%= link_to "ダウンロード", :controller => "resume_template", :action => "download"%>
+  </button>
 </html>
