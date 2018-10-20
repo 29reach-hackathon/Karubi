@@ -1,2 +1,70 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+// ファーストビューのcss
+
+*{
+  color:#3c3c3c;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+}
+body{
+  background-color: #fbfbfb;
+  position:relative;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+
+/* COMMON */
+.header{
+  position: fixed;
+  z-index:100;
+}
+.home-btn img{
+  width:80px;
+}
+
+
+/* TOP */
+.top{
+  background: url('bg_top.png') center center; background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+.section-left{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contents h2{
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN';
+  font-size:3vw;
+}
+.contents p{
+  font-size:2vw;
+}
+.section-right{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contents h1{
+  color:#fff;
+  font-family: 'Arial Rounded MT Bold',sans-serif;
+  font-size:7.5vw;
+}
+.contents a{
+  display:block;
+  color:#fff;
+  font-family: 'Silom',sans-serif;
+  font-size:3.5vw;
+  width:50%;
+  margin:0 auto;
+  border:8px solid #fff;
+  border-radius:10px;
+  text-align: center;
+}
