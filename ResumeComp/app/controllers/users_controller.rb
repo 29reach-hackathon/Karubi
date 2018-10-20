@@ -37,6 +37,9 @@ class UsersController < ApplicationController
     end
   end
 
+  def resume_create
+  end
+
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
